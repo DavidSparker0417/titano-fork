@@ -1,0 +1,67 @@
+
+ul.vertical-bar {
+    margin-top: 50px;
+  }
+  
+  ul.vertical-bar li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 30px;
+  }
+  
+  ul.vertical-bar li a {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #d0dce8;
+  }
+  
+  ul.vertical-bar li:first-child a:before {
+    position: absolute;
+    background-position: top;
+    content: "";
+    left: 0;
+    top: 3px;
+    height: 17px;
+    background: url("../public/home.svg");
+    filter: invert(0.7);
+    width: 16px;
+  }
+  
+  ul.vertical-bar li:nth-child(2) a:before {
+    position: absolute;
+    background-position: top;
+    content: "";
+    left: 0;
+    top: 3px;
+    height: 19px;
+    background: url(../public/stake.svg);
+    filter: invert(0.7);
+    width: 16px;
+  }
+  
+  ul.vertical-bar li:nth-child(3) a:before {
+    position: absolute;
+    background-position: top;
+    content: "";
+    left: 0;
+    top: 3px;
+    height: 19px;
+    background: url(../public/docs.svg);
+    filter: invert(0.7);
+    width: 16px;
+  }
+  
+  ul.vertical-bar li:nth-child(4) a:before {
+    position: absolute;
+    background-position: top;
+    content: "";
+    left: 0;
+    top: 6px;
+    height: 19px;
+    background: url(../public/social.svg);
+    filter: invert(0.7);
+    width: 16px;
+  }
